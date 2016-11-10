@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		615229081D73261E005509A4 /* ShowAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 615229071D73261E005509A4 /* ShowAreaView.m */; };
+		6152290A1D732628005509A4 /* ShowAreaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 615229091D732628005509A4 /* ShowAreaView.xib */; };
 		61F5D7D61D6F43B600762CD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F5D7D51D6F43B600762CD6 /* main.m */; };
 		61F5D7D91D6F43B600762CD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F5D7D81D6F43B600762CD6 /* AppDelegate.m */; };
 		61F5D7DC1D6F43B600762CD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F5D7DB1D6F43B600762CD6 /* ViewController.m */; };
@@ -15,6 +17,10 @@
 		61F5D7E41D6F43B600762CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F5D7E21D6F43B600762CD6 /* LaunchScreen.storyboard */; };
 		61F5D7EF1D6F43B600762CD6 /* AreaPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F5D7EE1D6F43B600762CD6 /* AreaPickerViewTests.m */; };
 		61F5D7FA1D6F43B600762CD6 /* AreaPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F5D7F91D6F43B600762CD6 /* AreaPickerViewUITests.m */; };
+		61F5D8191D6F445C00762CD6 /* DYCAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F5D8141D6F445C00762CD6 /* DYCAddressPickerView.m */; };
+		61F5D81A1D6F445C00762CD6 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F5D8161D6F445C00762CD6 /* Address.m */; };
+		61F5D81B1D6F445C00762CD6 /* DYCAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F5D8181D6F445C00762CD6 /* DYCAddress.m */; };
+		61F5D81D1D6F446F00762CD6 /* SYS_AREA.xml in Resources */ = {isa = PBXBuildFile; fileRef = 61F5D81C1D6F446F00762CD6 /* SYS_AREA.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		615229061D73261E005509A4 /* ShowAreaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowAreaView.h; sourceTree = "<group>"; };
+		615229071D73261E005509A4 /* ShowAreaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowAreaView.m; sourceTree = "<group>"; };
+		615229091D732628005509A4 /* ShowAreaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowAreaView.xib; sourceTree = "<group>"; };
 		61F5D7D11D6F43B600762CD6 /* AreaPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreaPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F5D7D51D6F43B600762CD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		61F5D7D71D6F43B600762CD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,13 @@
 		61F5D7F51D6F43B600762CD6 /* AreaPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AreaPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F5D7F91D6F43B600762CD6 /* AreaPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AreaPickerViewUITests.m; sourceTree = "<group>"; };
 		61F5D7FB1D6F43B600762CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F5D8131D6F445C00762CD6 /* DYCAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYCAddressPickerView.h; sourceTree = "<group>"; };
+		61F5D8141D6F445C00762CD6 /* DYCAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYCAddressPickerView.m; sourceTree = "<group>"; };
+		61F5D8151D6F445C00762CD6 /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		61F5D8161D6F445C00762CD6 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+		61F5D8171D6F445C00762CD6 /* DYCAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYCAddress.h; sourceTree = "<group>"; };
+		61F5D8181D6F445C00762CD6 /* DYCAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYCAddress.m; sourceTree = "<group>"; };
+		61F5D81C1D6F446F00762CD6 /* SYS_AREA.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SYS_AREA.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,7 @@
 		61F5D7D31D6F43B600762CD6 /* AreaPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				61F5D8121D6F445300762CD6 /* area */,
 				61F5D7D71D6F43B600762CD6 /* AppDelegate.h */,
 				61F5D7D81D6F43B600762CD6 /* AppDelegate.m */,
 				61F5D7DA1D6F43B600762CD6 /* ViewController.h */,
@@ -138,6 +155,23 @@
 				61F5D7FB1D6F43B600762CD6 /* Info.plist */,
 			);
 			path = AreaPickerViewUITests;
+			sourceTree = "<group>";
+		};
+		61F5D8121D6F445300762CD6 /* area */ = {
+			isa = PBXGroup;
+			children = (
+				61F5D81C1D6F446F00762CD6 /* SYS_AREA.xml */,
+				61F5D8131D6F445C00762CD6 /* DYCAddressPickerView.h */,
+				61F5D8141D6F445C00762CD6 /* DYCAddressPickerView.m */,
+				61F5D8151D6F445C00762CD6 /* Address.h */,
+				61F5D8161D6F445C00762CD6 /* Address.m */,
+				61F5D8171D6F445C00762CD6 /* DYCAddress.h */,
+				61F5D8181D6F445C00762CD6 /* DYCAddress.m */,
+				615229061D73261E005509A4 /* ShowAreaView.h */,
+				615229071D73261E005509A4 /* ShowAreaView.m */,
+				615229091D732628005509A4 /* ShowAreaView.xib */,
+			);
+			path = area;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				61F5D7E41D6F43B600762CD6 /* LaunchScreen.storyboard in Resources */,
+				6152290A1D732628005509A4 /* ShowAreaView.xib in Resources */,
 				61F5D7E11D6F43B600762CD6 /* Assets.xcassets in Resources */,
+				61F5D81D1D6F446F00762CD6 /* SYS_AREA.xml in Resources */,
 				61F5D7DF1D6F43B600762CD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F5D8191D6F445C00762CD6 /* DYCAddressPickerView.m in Sources */,
 				61F5D7DC1D6F43B600762CD6 /* ViewController.m in Sources */,
 				61F5D7D91D6F43B600762CD6 /* AppDelegate.m in Sources */,
+				615229081D73261E005509A4 /* ShowAreaView.m in Sources */,
+				61F5D81A1D6F445C00762CD6 /* Address.m in Sources */,
 				61F5D7D61D6F43B600762CD6 /* main.m in Sources */,
+				61F5D81B1D6F445C00762CD6 /* DYCAddress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +538,7 @@
 				61F5D8001D6F43B600762CD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61F5D8011D6F43B600762CD6 /* Build configuration list for PBXNativeTarget "AreaPickerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +547,7 @@
 				61F5D8031D6F43B600762CD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61F5D8041D6F43B600762CD6 /* Build configuration list for PBXNativeTarget "AreaPickerViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +556,7 @@
 				61F5D8061D6F43B600762CD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
