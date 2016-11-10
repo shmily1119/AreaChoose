@@ -6,4 +6,3 @@
 -------------
 
 
-/Users/vanness_rp/Desktop/gif动态图/2016-10-12--3.gif
